@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.about.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>About Me</title>
+</head>
+<body>
+  
+  
+  <!-- Navigation -->
+  <div class="container">
+    <div class="nav" id="nav">
+      <ul>
+        <li><a href="index.html" class="link home">home</a></li>
+        <li><a href="about.html" class="link about actived">about</a></li>
+        <li><a href="contact.html" class="link contact">contact</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="light left"><h3 class="light left">khazul yusseri</h3></a>
+  </header>
+  
+  
+  <!-- Section Hero -->
+  <section class="hero" id="hero" data-aos="fade-up">
+    <h1 class="light">&nbsp;&nbsp;this is what gets me going</h1>
+  </section>
+  
+  
+  <!-- Section Paragraph -->
+  <section class="hero-text" id="hero-text" data-aos="fade-up">
+    <div class="row">
+      <div class="col m6 s12">
+        <p>This is the perfect sentence to describe my passion and motivation in pursuing my dream of becoming a web frontend. I believe that web frontend has an important role in delivering a good user experience on the website. The skills required to become a web frontend are diverse and constantly evolving along with the development of technology and design trends.</p>
+      </div>
+      <div class="col m6 s12">
+        <p>Developing interactive, responsive, and aesthetically pleasing websites is an exciting challenge for me. I enjoy working with HTML, CSS, and JavaScript codes to create attractive and functional interfaces. I also continue to enrich my skills by learning various frameworks, libraries, and the latest technologies related to web frontend. My dream is to become a web frontend expert who can make a positive contribution in building websites that meet the needs and satisfaction of users. I believe with strong passion and determination, I can achieve that dream.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Section I Work -->
+  <section class="work" id="work" data-aos="fade-up">
+    <h3 class="light">how i work</h3>
+    <div class="explore">
+      <h4>01<span><br>explore</span></h4>
+      <p>At work, I always try new things and learn new ways of completing tasks. I also always look for creative and innovative solutions to problems that arise.</p>
+    </div>
+    <div class="excute">
+      <h4>02<span><br>excute</span></h4>
+      <p>I am the type of person who works in a very executive way. I like to plan every detail and make sure that every task is completed according to the deadline that has been set. In my work, I always focus on achieving goals and desired results.</p>
+    </div>
+    <div class="refine">
+      <h4>03<span><br>refine</span></h4>
+      <p>I also always evaluate and reflect on the work I have completed, to identify areas for improvement and correct any weaknesses. I enjoy collaborating with colleagues to learn from each other and develop new ideas that can improve work processes and quality.</p>
+    </div>
+  </section>
+  
+  
+  <section class="me" data-aos="fade-up">
+    <div class="pic-me-1"></div>
+    <div class="pic-me-2"></div>
+  </section>
+  
+  
+  <!-- Carier -->
+  <section class="career" data-aos="fade-up">
+    <div class="row">
+      <div class="col m6 s12">
+        <h3 class="light">career</h3>
+      </div>
+      <div class="col m6 s12">
+        <h4 class="light">ata industrial<span><br>operator mechine<br>2019 - 2020</span></h4>
+        <br>
+        <h4 class="light">intretech<span><br>operator mechine<br>2020 - 2021</span></h4>
+        <br>
+        <h4 class="light">Tiam Beng's Seafood<span><br>waiter<br>2021 - 2023</span></h4>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skils -->
+  <section class="skill" id="skill" data-aos="fade-up">
+    <div class="row">
+      <div class="col m6 s12">
+        <h3 class="light">Expertise</h3>
+      </div>
+      <div class="col m6 s12">
+        <h4 class="light">html</h4>
+        <div class="progress">
+          <div class="determinate" style="width: 85%"></div>
+        </div>
+        <h4 class="light">css</h4>
+        <div class="progress">
+          <div class="determinate" style="width: 80%"></div>
+        </div>
+        <h4 class="light">javascript</h4>
+        <div class="progress">
+          <div class="determinate" style="width: 70%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Footer -->
+  <footer>
+    <div class="row">
+      <div class="col m6">
+        <ul class="navlink">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+      <div class="col m6">
+        <ul class="secnav-link">
+          <li><a href="#">instagram</a></li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">whatsApp</a></li>
+          <li><a href="#">github</a></li>
+          <li><a href="#">built by khazul</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="flow-text center">&copy; 2023</p>
+  </footer>
+  
+  <script>
+    var header = document.getElementById("nav");
+    var links = document.getElementsByClassName("link");
+    
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("actived");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      })
+    }
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

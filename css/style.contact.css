@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #0f0e17;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  background-color: #242629;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 40px;
+  z-index: 9999;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.nav li {
+  padding: 8px;
+}
+.nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fffffe;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.actived, .nav li a:hover {
+  background-color: #ff8906;
+  color: #fffffe;
+  border-radius: 50px;
+  animation: scale-up-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/* HEADER LOGO */
+
+header h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fffffe;
+  padding-left: 40px;
+}
+
+
+/* SECTION HERO */
+
+.hero {
+  padding: 100px 0 0 40px; 
+}
+.hero h1 {
+  font-family: 'Work Sans', sans-serif;
+  color: #fffffe;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.hero span.content {
+  display: block;
+}
+.contact {
+  padding: 50px 0 0 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #fffffe;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+.contact ul {
+  list-style-type: none;
+}
+.contact ul > li a {
+  display: block;
+  padding: 10px 0;
+  color: #fffffe;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.contact p.sub-2 {
+  margin-top: 50px;
+  color: #a7a9be;;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 80%;
+  text-transform: none;
+}
+/* Footer */
+footer {
+  letter-spacing: 1px;
+}
+footer ul.navlink {
+  list-style-type: none;
+  padding: 100px 0 0 40px;
+}
+footer ul.navlink > li a {
+  display: block;
+  color: #fffffe;
+  padding: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+footer ul.secnav-link {
+  list-style-type: none;
+  padding: 80px 0 0 40px;
+}
+footer ul.secnav-link > li a {
+  display: block;
+  color: #fffffe;
+  padding: 30px 0 0 80px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+footer p {
+  margin-bottom: 100px;
+  padding: 50px;
+  color: #fffffe;
+}
+footer * a:hover {
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  footer ul.navlink {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header, .hero, .contact {
+    padding-left: 80px;
+  }
+}
