@@ -274,9 +274,10 @@ div#sub {
 footer {
   letter-spacing: 1px;
 }
+/*
 footer ul.navlink {
   list-style-type: none;
-  padding: 100px 0 0 40px;
+  margin: 100px 0 0 40px;
 }
 footer ul.navlink > li a {
   display: block;
@@ -301,14 +302,11 @@ footer ul.secnav-link > li a {
   font-weight: 400;
   cursor: pointer;
   text-transform: capitalize;
-}
+}*/
 footer p {
   margin-bottom: 100px;
   padding: 50px;
   color: #fffffe;
-}
-footer * a:hover {
-  text-decoration: underline;
 }
 /* Animation */
 @keyframes scale-up-center {
@@ -387,9 +385,5 @@ footer * a:hover {
   }
   .spinner {
     left: 50%;
-  }
-  footer ul.navlink {
-    display: flex;
-    justify-content: space-evenly;
   }
 }

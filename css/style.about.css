@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 .container {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 .nav {
@@ -130,7 +130,7 @@ header h3 {
   width: 90%;
   color: #a7a9be;
   font-size: 15px;
-  /*text-transform: capitalize;*/
+  text-transform: capitalize;
 }
 
 /* Picture Me */
@@ -154,7 +154,6 @@ header h3 {
   height: 250px;
   background-image: url("about/comp.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
   transform: translate(20px, -50px);
@@ -206,41 +205,10 @@ header h3 {
 footer {
   letter-spacing: 1px;
 }
-footer ul.navlink {
-  list-style-type: none;
-  padding: 100px 0 0 40px;
-}
-footer ul.navlink > li a {
-  display: block;
-  color: #fffffe;
-  padding: 10px 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-footer ul.secnav-link {
-  list-style-type: none;
-  padding: 80px 0 0 40px;
-}
-footer ul.secnav-link > li a {
-  display: block;
-  color: #fffffe;
-  padding: 30px 0 0 80px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  cursor: pointer;
-  text-transform: capitalize;
-}
 footer p {
   margin-bottom: 100px;
   padding: 50px;
   color: #fffffe;
-}
-footer * a:hover {
-  text-decoration: underline;
 }
 
 /* Responsive */
@@ -265,9 +233,5 @@ footer * a:hover {
   .pic-me-2 {
     width: 350px;
     height: 450px;
-  }
-  footer ul.navlink {
-    display: flex;
-    justify-content: space-evenly;
   }
 }
