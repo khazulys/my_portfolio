@@ -398,7 +398,8 @@ footer * a:hover {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-   footer ul.navlink {
+   footer * ul {
      display: flex;
+     justify-content: space-evenly;
    }
 }
