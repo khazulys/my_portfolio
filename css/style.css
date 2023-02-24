@@ -394,13 +394,10 @@ footer * a:hover {
   }
 }
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
    footer * ul {
-     display: flex;
-     justify-content: space-evenly;
-     align-items: flex-start;
+     display: none;
    }
 }
