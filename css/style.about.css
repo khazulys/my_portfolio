@@ -130,7 +130,7 @@ header h3 {
   width: 90%;
   color: #a7a9be;
   font-size: 15px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 /* Picture Me */
