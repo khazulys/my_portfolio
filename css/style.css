@@ -393,3 +393,9 @@ footer * a:hover {
     justify-content: space-evenly;
   }
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  footer ul.navlink {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
